@@ -1,14 +1,17 @@
-import java.util.*;
+package Programmers;
 
-class Main {
+import java.util.PriorityQueue;
+
+class Main1313 {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution1313 sol = new Solution1313();
         int[] scoville = {1, 2, 3, 9, 10, 12};
         System.out.println(sol.solution(scoville, 7));
 
     }
 }
-class Solution {
+
+class Solution1313 {
     public int solution(int[] scoville, int K) {
         PriorityQueue<Integer> heap = new PriorityQueue<>();
         for(int i : scoville)
