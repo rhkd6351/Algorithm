@@ -1,13 +1,18 @@
-import java.util.*;
+package Programmers;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
 class Main {
-    public static void main(String[] args) {
-        Solution sol = new Solution();
+    public static void main414141(String[] args) {
+        Solution414141 sol = new Solution414141();
         String[] phone_book = {"123","456","789"};
         System.out.println(sol.solution(phone_book));
     }
 }
-class Solution {
+
+class Solution414141 {
     public boolean solution(String[] phone_book) {
 
         List<String> _list = Arrays.asList(phone_book);
